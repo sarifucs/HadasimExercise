@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Drawing;
-using System.IO;
 using System.Net;
 
 class Program
@@ -141,7 +140,7 @@ class Program
                 ///////////////////////////////////
                 //88888
                 // The colors names that appear in the file and and how many times each one appears
-                KnownColor[] colors = (KnownColor[])Enum.GetValues(typeof(KnownColor)); // Save a list with colors nanmes
+                KnownColor[] colors = (KnownColor[])Enum.GetValues(typeof(KnownColor)); // Save a list with colors names
                 List<string> colorsString = new List<string>();
                 foreach (KnownColor knowColor in colors)
                 {
